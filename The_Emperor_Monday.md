@@ -39,6 +39,7 @@ either the algorithm works, or it doesn’t.
 At this stage, I was still thinking like a mathematician.
 
 Code Reference: The initial, raw implementation of the formula is available in step1_basic.c.
+
 Section 2. When Testing Feels Like Proof
 Turning the formula into a function felt like an obvious next step.
 Once the code was no longer embedded directly in main, it became something I could reason about.
@@ -62,6 +63,7 @@ And the expectations were modest.
 If the code works for common dates, if it handles leap years, if it survives the turn of the century — what else could possibly go wrong?
 
 Code Reference: See how the code evolved into a testable function in step2_refactor.c.
+
 Section 3. In Search of an Oracle
 When your own tests are no longer convincing, the natural instinct is to look for an authority.
 In software testing, this authority is often called an oracle: a source that is assumed to produce correct results against which everything else can be compared.
@@ -82,6 +84,7 @@ The algorithm was correct. The tests were thorough. The oracle agreed.
 There was nothing left to doubt.
 
 Code Reference: The automated comparison between my code and the standard time.h library can be found in step3_oracle.c.
+
 Section 4. The Emperor’s Monday
 The first failing test was not a technical error.
 It was a confrontation with history.
@@ -103,6 +106,7 @@ By applying modern rules to an ancient era, I wasn't being precise. I was being 
 Mathematics did not fail. Engineering did.
 
 Code Reference: You can see how the logic branches to accommodate both Julian and Gregorian eras in step4_history.c.
+
 Section 5. Responsibility Has a Boundary
 Once the model had failed, a new question appeared.
 Not a mathematical one. And not a historical one.
@@ -142,6 +146,7 @@ It fails loudly. It fails exactly where the problem is.
 The contract remains. The ambiguity does not.
 
 Code Reference: The final implementation of this "contractual armor" using assert can be found in step5_contract.c.
+
 Conclusion. What This Date Taught Me
 The date itself was not special.
 It did not reveal a hidden bug. It did not expose a clever edge case.

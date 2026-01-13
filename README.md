@@ -1,4 +1,4 @@
-# The Emperor’s Monday 👑📅
+# The Emperor’s Monday
 
 > **"If you don't know how many legs a cow has, your program will return a wrong result even if your math is perfect."**
 
@@ -20,7 +20,7 @@ This discrepancy is not a bug in the code, but a failure of the **mathematical m
 
 ---
 
-## 🚀 Project Structure
+## Project Structure
 
 The code is organized into five progressive steps, demonstrating the evolution of an engineering solution:
 
@@ -32,14 +32,14 @@ The code is organized into five progressive steps, demonstrating the evolution o
 
 ---
 
-## 🛠️ Building the Project
+## Building the Project
 
 The project includes a `Makefile` for automated building.
 
 ```bash
 # Clone the repository
-git clone [тут я вставлю ссылку на репозиторий](https://github.com/your-username/the-emperors-monday.git)
-cd the-emperors-monday
+git clone [https://github.com/ArthurLazdin/the-emperors-monday.git](https://github.com/ArthurLazdin/the-emperors-monday.git)
+cd the-emperors-Monday
 
 # Compile all steps
 make
