@@ -6,7 +6,7 @@ This repository contains the source code and documentation for the article **"Th
 
 ---
 
-## 📖 The Story
+## The Story
 
 In this project, we attempt to calculate the day of the week for historical dates using a "perfect" mathematical formula. 
 
@@ -15,7 +15,6 @@ The turning point occurs when we test the coronation of Charlemagne (December 25
 * **The History Books:** Record it as a **Sunday**.
 
 This discrepancy is not a bug in the code, but a failure of the **mathematical model**. We explore why the 1582 Gregorian reform matters to a modern C programmer and how "Design by Contract" can protect our software from such silent failures.
-
 
 
 ---
@@ -39,7 +38,7 @@ The project includes a `Makefile` for automated building.
 ```bash
 # Clone the repository
 git clone [https://github.com/ArthurLazdin/the-emperors-monday.git](https://github.com/ArthurLazdin/the-emperors-monday.git)
-cd the-emperors-Monday
+cd the-emperors-monday/examples
 
 # Compile all steps
 make
