@@ -1,6 +1,7 @@
 # Variables: specifying the compiler and flags (warnings, debugging)
 CC = gcc
 CFLAGS = -Wall -Wextra -g
+RM = rm -f
 
 # List of executable files we want to generate
 TARGETS = step1_basic step2_refactor step3_oracle step4_history step5_contract
@@ -19,7 +20,7 @@ all: $(TARGETS)
 # Special target to clean the project of binary files
 # Type 'make clean' to remove all compiled programs
 clean:
-	rm -f $(TARGETS)
+	$(RM) $(TARGETS)
 
 # Phony targets (to prevent make from confusing these with actual filenames)
 .PHONY: all clean

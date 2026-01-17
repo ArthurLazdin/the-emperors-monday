@@ -238,15 +238,5 @@ This is the difference between writing code and practicing engineering.
 Code answers questions.  
 Engineering decides which questions are worth answering — and under which conditions the answers still make sense.
 
-This gap between mathematical perfection and reality is not unique to ancient calendars.  
-It appears whenever a system is internally consistent but poorly grounded in the world it tries to describe.
-
-Modern AI systems, including Large Language Models, fail in much the same way.  
-They are statistically sound within their training distributions, yet confidently produce false answers when pushed beyond their implicit assumptions.  
-Like my date algorithm, an LLM can generate a perfectly formatted, logically coherent result that is fundamentally wrong — not because it is broken, but because its model of reality is incomplete.
-
-As we move from deterministic code to probabilistic systems, the engineer’s role shifts.  
-We are no longer just implementing logic; we are defining boundaries, enforcing contracts, and deciding when a system must refuse to answer.
-
-Once those boundaries are explicit, failure stops being mysterious.  
+Once those conditions are explicit, failure stops being mysterious.  
 It becomes informative.
