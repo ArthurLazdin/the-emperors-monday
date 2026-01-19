@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -g
 RM = rm -f
 
 # List of executable files we want to generate
-TARGETS = step1_basic step2_refactor step3_oracle step4_history step5_contract
+TARGETS = step1_basic step2_refactor step3_oracle step3a_double_fail step4_history step5_contract
 
 # Main target: build all examples
 # Simply type 'make' in the terminal

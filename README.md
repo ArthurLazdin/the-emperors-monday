@@ -1,6 +1,6 @@
 # The Emperor’s Monday
 
-> **"If you don't know how many legs a cow has, your program will return a wrong result even if your math is perfect."**
+> **"Mathematics helps you build software right; domain knowledge helps you build the right software."**
 
 This repository contains the source code and documentation for the article **"The Emperor’s Monday: Why History is the Ultimate Stress-Test for Your Code."** It explores the transition from simple coding to software engineering through the lens of Zeller’s Congruence and a famous historical paradox.
 
@@ -26,6 +26,7 @@ The code is organized into five progressive steps, demonstrating the evolution o
 * `step1_basic.c`: Raw implementation of Zeller's formula.
 * `step2_refactor.c`: Moving from a script to a testable, reusable function.
 * `step3_oracle.c`: Automated validation against the C standard library (`time.h`).
+* `step3a_double_fail`: Unexpected double error for a domain example.
 * `step4_history.c`: Implementing the Julian/Gregorian calendar switch (The "Charlemagne" fix).
 * `step5_contract.c`: Final version using `assert()` and explicit functional contracts.
 
