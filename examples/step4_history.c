@@ -27,16 +27,11 @@ int main(void) {
     // Example: Coronation of Charlemagne (December 25, 800 AD)
     int d = 25, m = 12, y = 800; 
     
-    /**
-     * HISTORICAL CONTEXT & DISCREPANCIES:
-     * 1. The Gregorian formula (Step 2) incorrectly returns 2 (Monday).
-     * 2. Most history textbooks record this event as a Sunday (the traditional 
-     * association of the coronation with Christmas Day).
-     * 3. Our Julian algorithm calculates the day as Friday (Code 6).
-     *
-     * This is not a bug. It highlights a deeper layer of engineering: 
-     * mathematical models often reveal discrepancies between theoretical 
-     * calendars and historical accounts.
+      /**
+     * HISTORICAL CONTEXT:
+     * 1. Gregorian formula would return 2 (Monday).
+     * 2. Textbooks often claim Sunday (traditional association).
+     * 3. Julian algorithm correctly calculates Friday (Code 6).
      */
     int res = calculate_zeller_universal(d, m, y);
     
